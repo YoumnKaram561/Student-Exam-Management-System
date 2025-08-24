@@ -1,10 +1,10 @@
 # 🧍🏻 Student Exam Management System
 
-**📄##Description**
+**📄Description**
 
 This is a console-based C# application designed to manage student, teacher, exam, and result data. It provides functionalities for adding, viewing, searching, and sorting students, adding teachers and exams, recording exam results, and generating reports.
 
-**🚀##Features**
+**🚀Features**
 
 - *Student Management*: Add, view, search, and sort students by name or GPA.
 - *Teacher Management*: Add and view teacher details.
@@ -13,7 +13,7 @@ This is a console-based C# application designed to manage student, teacher, exam
 - *Reporting*: View top students in a subject, export student data to CSV.
 - *Data Persistence*: Save and load all application data to/from a JSON file.
 
-**📑##Project Structure**
+**📑Project Structure**
 . 
 ├── DataStore.cs          # Defines the structure for saving/loading all application data.
 ├── Exam.cs               # Represents an exam entity.
@@ -28,13 +28,13 @@ This is a console-based C# application designed to manage student, teacher, exam
 └── TeacherRepository.cs  # Handles data operations for Teacher objects.
 
 
-**##Getting Started**
+**Getting Started**
 
-**###Prerequisites**
+**Prerequisites**
 
 - .NET SDK (version 6.0 or higher)
 
-**###Installation**
+**Installation**
 
 1. Clone the repository:
    bash
@@ -46,7 +46,7 @@ This is a console-based C# application designed to manage student, teacher, exam
    dotnet build
    
 
-**###Running the Application**
+**Running the Application**
 
 To run the application from the command line:
 
@@ -54,7 +54,7 @@ bash
 dotnet run
 
 
-**##Usage**
+**Usage**
 
 Upon running the application, a menu will be displayed with various options:
 
@@ -75,14 +75,14 @@ Upon running the application, a menu will be displayed with various options:
 
 Follow the prompts to interact with the system. Data is saved to exam_system_data.json and student reports to students_report.csv in the application's directory.
 
-**##Contributing**
+**Contributing**
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-**## License**
+**License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**## Contact**
+**Contact**
 
 For any questions or suggestions, please open an issue in the repository.
